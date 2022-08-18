@@ -16,6 +16,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>goit-markup-hw-02</title>
   </head>
   <body>
@@ -32,7 +33,7 @@
             <li class="header-item"><a href="" class="link">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="tel-mail list">
+        <ul class="contacts list">
           <li class="header-item">
             <a href="mailto:info@devstudio.com" class="mail-link link">
               <svg class="header-icon-envelope" width="16" height="12">
@@ -60,7 +61,7 @@
             Ефективні рішення для<br />
             вашого бізнесу
           </h1>
-          <button type="button" class="btn btn-hero" data-modal-open>Замовити послугу</button>
+          <button type="button" class="btn hero-btn" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <!-- Особливості -->
@@ -404,8 +405,8 @@
             ><span class="blue-text">Web</span><span class="white-text">Studio</span></a
           >
           <address class="address-view">
-            м. Київ, пр-т Лесі Українки, 26
-            <ul class="tel-mail list">
+            <span>м. Київ, пр-т Лесі Українки, 26</span>
+            <ul class="contacts list">
               <li>
                 <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
               </li>
@@ -480,7 +481,7 @@
           </svg>
         </button>
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
-        <form>
+        <form class="modal-form">
           <label for="username" class="modal-label">Ім'я</label>
           <span class="container-inputs">
             <input
